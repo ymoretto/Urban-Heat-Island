@@ -1,0 +1,3 @@
+### For quick testing purposes
+GET https://www.ncdc.noaa.gov/cdo-web/api/v2 HTTP/1.1
+Token: oiShVsINvYzwmXNAMZVRFGVHzRMbQqrU
