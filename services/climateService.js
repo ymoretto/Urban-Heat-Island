@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_KEY = useRuntimeConfig().public.NCDC_API_KEY; // Access from .env or nuxt.config
-const BASE_URL = useRuntimeConfig().public.NCDC_API_URL;
+const API_KEY = process.env.NUXT_NCDC_API_KEY;
+const BASE_URL = process.env.NUXT_NCDC_API_URL;
 
 const apiClient = axios.create({
   baseURL: BASE_URL,

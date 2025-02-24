@@ -1,75 +1,33 @@
-# Nuxt Minimal Starter
+# Urban Heat Island Visualization
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Project Goal
 
-## Setup
+This project aims to visualize climate data related to Urban Heat Islands using a single-page application with one interactive chart. The focus is on efficiently rendering large datasets while maintaining smooth performance.
 
-Make sure to install dependencies:
+## Tech Stack
 
-```bash
-# npm
-npm install
+- Nuxt 3 (Vue.js framework)
+- Vue 3
+- TypeScript
+- D3.js (Data visualization)
+- D3fc (Optimized chart rendering with WebGL)
+- Axios (API requests)
+- Pinia (State management, if needed in the future)
+- Vitest (Unit testing)
 
-# pnpm
-pnpm install
+## To-Do List / Roadmap
 
-# yarn
-yarn install
+## Setup Instructions
 
-# bun
-bun install
-```
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Set up a `.env` file with the necessary API keys
+4. Run the project with `npm run dev`
 
-## Development Server
+## Contributing
 
-Start the development server on `http://localhost:3000`:
+Contributions are welcome! Please fork the repository and submit a pull request.
 
-```bash
-# npm
-npm run dev
+## License
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the MIT License.
